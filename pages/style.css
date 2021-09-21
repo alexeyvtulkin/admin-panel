@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.page_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+
+}
+
+.page_header {
+    display: flex;
+    flex-direction: row;
+    background: #A8A8FF;
+    align-items: flex-start;
+    padding: 0rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2.375rem;
+
+}
+
+
+.page_header_text {
+    font-weight: 700;
+    font-size: 1,625rem;
+    line-height: 2rem;
+    font-family: "Ubuntu";
+    color: #8055FF;
+}
+
+.search_area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #FFFFFF;
+    padding: 0.5rem;
+    
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid #A8A8FF;
+}
+
+.search_window {
+    display: flex;
+    background: #8055FF;
+    Width: 256px;
+    Height: 32px;
+    
+
+}
+
+.search_filters {
+    display: flex;
+    background: #8055FF;
+    Width: 32px;
+    Height: 32px;
+    margin-left: 8px;
+}
+
+.search_download {
+    display: flex;
+    align-self: flex-end;
+    background: #8055FF;
+    Width: 32px;
+    Height: 32px;
+    margin-left: auto;
+
+}
+
+.table_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: #A8A8FF;
+    margin-bottom: auto;
+    margin-top: 2rem;
+    height: 100%;
+    border: 2px solid #8055FF;
+
+}
+
+
+
+.table_header {
+    display: flex;
+    
+    Height: 48px;
+    background: #8055FF;
+ 
+
+}
+
+
+.table_body {
+
+    display: flex;
+  
+    Height: 100%;
+    background: #A8A8FF;
+
+
+}
+
+
+.table_footer {
+    display: flex;
+   
+    Height: 48px;
+    background: #8055FF;
+    margin-bottom: 0px;
+    
+  
+}
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 25rem;
+    border: 1px dashed #8055FF;
+    border-radius: 5px;
+    background: #E5E5E5;
+
+}
+
+.input_window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
+
+}
+
+.input_window_name {
+    
+    font-weight: normal;
+    font-family: "Ubuntu";
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.input_window_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: normal;
+    font-family: "Ubuntu";
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    margin-top: 8px;
+}
+
+.empty_window .input_window_data {
+    border-color: #459DF5;
+    color: #BAD8F5;
+    background: white;
+}
+
+.incorrect_window .input_window_data {
+    border-color: #F53152;
+    background: white;
+}
+
+.disabled_window .input_window_data {
+    border-color: #459DF5;
+    background: #BAD8F5;
+}
+
+
+
+.Lock {
+    display: inline-flex;
+    align-items: center;
+}
+
+.X {
+    display: inline-flex;
+    align-items: center;
+   
+}

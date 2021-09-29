@@ -1,0 +1,59 @@
+body,
+html {
+  height: 100%;
+}
+
+.radio {
+  position: absolute;
+  width: 104px;
+  height: 64px;
+  border: 1px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #e5e5e5;
+}
+
+label {
+	display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 24px;
+    font-size: 13px;
+    top: 24px;
+    margin-right: 10px;
+}
+
+
+
+input[type="radio"] {
+  display: none;
+}
+
+label:before {
+  content: "";
+  display: inline-block;
+
+  width: 14px;
+  height: 14px;
+
+  position: absolute;
+  bottom: 1px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #bad8f5;
+}
+
+.radio label:before {
+  border-radius: 8px;
+}
+
+input[type="radio"]:checked + label:before {
+  content: "\2022";
+  color: #ffffff;
+  background-color: #459df5;
+  font-size: 30px;
+  text-align: center;
+  line-height: 16px;
+  border-style: none;
+  width: 16px;
+  height: 16px;
+}

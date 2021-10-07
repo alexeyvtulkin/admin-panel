@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+.input_container {
+}
+
+.input_name {
+  color: #8055ff;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 25rem;
+  border: 1px dashed #8055ff;
+  border-radius: 0.25rem;
+  background: #e5e5e5;
+  box-sizing: border-box;
+}
+
+.input_area {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.input_window_name {
+  font-weight: normal;
+  font-family: "Ubuntu";
+  margin-bottom: 0.125rem;
+}
+
+.empty_window {
+
+  display: flex;
+    flex-direction: column;
+    width: 16rem;
+    font-size: 0.75rem;
+    margin-bottom: 4rem;
+  
+}
+
+.incorrect_window {
+
+  display: flex;
+    flex-direction: column;
+    width: 16rem;
+    font-size: 0.75rem;
+    margin-bottom: 4rem;
+}
+
+.disabled_window {
+
+  display: flex;
+    flex-direction: column;
+    width: 16rem;
+    font-size: 0.75rem;
+    
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.input_window_field {
+  display: flex;
+  height: 2rem;
+  box-sizing: border-box;
+  width: 16rem;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  background-color: white;
+
+  border: 1px solid #459df5;
+}
+
+.incorrect_window .input_window_field {
+  border: 1px solid red;
+}
+
+
+
+.input_window_data {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: normal;
+  font-family: "Ubuntu";
+  border-style: none;
+  
+}
+
+.input_container .empty_window input::placeholder {
+  color: black;
+  color: #459df5;
+  
+}
+
+.input_container input::placeholder {
+  color: black;
+}
+
+
+.disabled_window .input_window_field {
+  background-color: #bad8f5;
+}
+
+
+.empty_window .input_window_data {
+  
+  color: #bad8f5;
+  background: white;
+
+}
+
+.empty_window .input_window_data {
+  color: #459df5;
+}
+
+.incorrect_window .input_window_data {
+
+
+  background: white;
+ 
+}
+
+.disabled_window .input_window_data {
+  
+  
+  background: #bad8f5;
+}
+
+.Lock {
+  display: flex;
+}
+
+.X {
+  display: flex;
+}

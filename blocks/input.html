@@ -8,34 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="input">
-        <div class="empty_window">
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">Введите
-                    </div>
-                </div>
+    <div class="input_container">
+                <div class="input_name">Input</div>
+                    <div class="input">
+                    <form class="input_form">
+                                <div class="empty_window">
+                                        <div class="input_window_name">Дата и время заказа</div>
+                                        <div class="input_window_field">
+                                            <input class="input_window_data" placeholder="Введите">
+                                        </div>    
+                                </div>
+                                <div class="incorrect_window">         
+                                        <div class="input_window_name">Дата и время заказа</div>
+                                            <div class="input_window_field">
+                                                    <input class="input_window_data" placeholder="06.12.2021">
+                                                    <div class="X"><img src="pics/Vector1.svg"></img></div>
+                                            </div>
+                                </div>
+                                <div class="disabled_window">      
+                                        <div class="input_window_name">Дата и время заказа</div>
+                                            <div class="input_window_field">
+                                            <input class="input_window_data" placeholder="06.12.2021">
+                                            <div class="Lock"><img src="pics/Lock.svg"></img></div>
+                                            </div>
+                                </div>
+                    </form>  
+                    </div>    
             </div>
-        </div>  
-        <div class="incorrect_window">         
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">06.12.2021
-                        <div class="X"><img  src="pics/Vector.svg"></img></div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <div class="disabled_window">      
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">06.12.2021
-                        <div class="Lock"><img  src="pics/Lock.svg"></img></div>
-                    </div>
-                </div>
-            </div>
-        </div>   
-    </div>
 </body>
 </html>
 

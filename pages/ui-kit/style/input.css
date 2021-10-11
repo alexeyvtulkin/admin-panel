@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
-.input_container {
+.input__container {
 }
 
-.input_name {
+.input__container__name {
   color: #8055ff;
 }
 
@@ -14,124 +14,100 @@
   align-items: center;
   width: 22rem;
   height: 25rem;
-  border: 1px dashed #8055ff;
+  border: 0.0625rem dashed #8055ff;
   border-radius: 0.25rem;
   background: #e5e5e5;
   box-sizing: border-box;
 }
 
-.input_area {
-  display: flex;
-  width: 100%;
-}
-
-
-
-.input_window_name {
+.input__name {
   font-weight: normal;
   font-family: "Ubuntu";
   margin-bottom: 0.125rem;
 }
 
-.empty_window {
-
+.input__empty {
   display: flex;
-    flex-direction: column;
-    width: 16rem;
-    font-size: 0.75rem;
-    margin-bottom: 4rem;
-  
+  flex-direction: column;
+  width: 16rem;
+  font-size: 0.75rem;
+  margin-bottom: 4rem;
 }
 
-.incorrect_window {
-
+.input__incorrect {
   display: flex;
-    flex-direction: column;
-    width: 16rem;
-    font-size: 0.75rem;
-    margin-bottom: 4rem;
+  flex-direction: column;
+  width: 16rem;
+  font-size: 0.75rem;
+  margin-bottom: 4rem;
 }
 
-.disabled_window {
-
+.input__disabled {
   display: flex;
-    flex-direction: column;
-    width: 16rem;
-    font-size: 0.75rem;
-    
+  flex-direction: column;
+  width: 16rem;
+  font-size: 0.75rem;
 }
 
-:active, :hover, :focus {
+:active,
+:hover,
+:focus {
   outline: 0;
   outline-offset: 0;
 }
 
-.input_window_field {
+.input__field {
   display: flex;
   height: 2rem;
   box-sizing: border-box;
   width: 16rem;
-  border-radius: 4px;
-  padding: 4px 8px 4px 8px;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
   background-color: white;
 
-  border: 1px solid #459df5;
+  border: 0.0625rem solid #459df5;
 }
 
-.incorrect_window .input_window_field {
-  border: 1px solid red;
+.input__incorrect .input__field {
+  border: 0.0625rem solid red;
 }
 
-
-
-.input_window_data {
+.input__data {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
   align-items: center;
   font-weight: normal;
   font-family: "Ubuntu";
   border-style: none;
-  
 }
 
-.input_container .empty_window input::placeholder {
+.input__container .input_empty input::placeholder {
   color: black;
   color: #459df5;
-  
 }
 
-.input_container input::placeholder {
+.input__container input::placeholder {
   color: black;
 }
 
-
-.disabled_window .input_window_field {
+.input__disabled .input__field {
   background-color: #bad8f5;
 }
 
-
-.empty_window .input_window_data {
-  
+.input__empty .input__data {
   color: #bad8f5;
   background: white;
-
 }
 
-.empty_window .input_window_data {
+.input__empty .input__data {
   color: #459df5;
 }
 
-.incorrect_window .input_window_data {
-
-
+.input__incorrect .input__data {
   background: white;
- 
 }
 
-.disabled_window .input_window_data {
-  
-  
+.input__disabled .input__data {
   background: #bad8f5;
 }
 

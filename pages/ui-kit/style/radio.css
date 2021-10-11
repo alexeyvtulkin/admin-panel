@@ -57,9 +57,10 @@ label:before {
 input[type="radio"]:checked + label:before {
   content: "\2022";
   color: #ffffff;
+  padding-left: 1px;
   background-color: #459df5;
-  font-size: 30px;
-  text-align: center;
-  line-height: 16px;
+  font-size: 33px;
+  text-align: inherit;
+  line-height: 14px;
   border-style: none;
 }

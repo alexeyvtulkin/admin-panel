@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
-.searchbar_container {
+.searchbar__container {
 }
 
-.searchbar_name {
+.searchbar__name {
   color: #8055ff;
 }
 
@@ -17,41 +17,38 @@
   font-weight: normal;
   font-family: "Ubuntu";
   background: #e5e5e5;
-  border: 1px dashed #8055ff;
+  border: 0.0625rem dashed #8055ff;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 
 
-.window_empty {
+.searchbar__empty {
   display: flex;
   width: 16rem;
   height: 2rem;
   background: #ffffff;
-  border: 1px solid #459df5;
+  border: 0.0625rem solid #459df5;
   box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  border-radius: 0.25rem;
+  margin: 3rem 3rem 0;
 }
 
-.window_empty_data {
+.searchbar__empty__data {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
   align-items: center;
   color: #bad8f5;
   border-style: none;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.8125rem;
+  line-height: 1rem;
 }
 
-.searchbar .window_empty input::placeholder {
+.searchbar .searchbar__empty input::placeholder {
   color: black;
   color: #459df5;
   
@@ -61,7 +58,7 @@
   color: black;
 }
 
-.window_filled {
+.searchbar__filled {
   display: flex;
   width: 16rem;
   height: 2rem;
@@ -69,10 +66,7 @@
   border: 1px solid #459df5;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-top: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 3rem;
+  margin: 2rem 3rem 3rem;
 }
 
 :active, :hover, :focus {
@@ -80,29 +74,28 @@
   outline-offset: 0;
 }
 
-.window_filled_data {
+.searchbar__filled__data {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
   align-items: center;
   border-style: none;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 0.8125rem;
+  line-height: 1rem;
   color: black;
   
 }
 
 .Ellipse {
   display: flex;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .Vector {
   display: flex;
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }

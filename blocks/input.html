@@ -8,33 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="input">
-        <div class="empty_window">
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">Введите
-                    </div>
+    <div class="input__container">
+        <div class="input__container__name">Input</div>
+            <div class="input">
+            <form class="input__form">
+                <div class="input__empty">
+                    <div class="input__name">Дата и время заказа</div>
+                    <div class="input__field">
+                        <input class="input__data" placeholder="Введите">
+                    </div>    
                 </div>
-            </div>
-        </div>  
-        <div class="incorrect_window">         
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">06.12.2021
-                        <div class="X"><img  src="pics/Vector.svg"></img></div>
-                    </div>
+                <div class="input__incorrect">        
+                    <div class="input__name">Дата и время заказа</div>
+                        <div class="input__field">
+                            <input class="input__data" placeholder="06.12.2021">
+                            <div class="X"><img src="pics/Vector.svg"></img></div>
+                        </div>
                 </div>
-            </div>
-        </div> 
-        <div class="disabled_window">      
-            <div class="input_window">
-                <div class="input_window_name"> Дата и время заказа
-                    <div class="input_window_data">06.12.2021
-                        <div class="Lock"><img  src="pics/Lock.svg"></img></div>
-                    </div>
+                <div class="input__disabled">      
+                    <div class="input__name">Дата и время заказа</div>
+                        <div class="input__field">
+                                <input class="input__data" placeholder="06.12.2021">
+                                <div class="Lock"><img src="pics/Lock.svg"></img></div>
+                        </div>
                 </div>
-            </div>
-        </div>   
+            </form>  
+            </div>    
     </div>
 </body>
 </html>

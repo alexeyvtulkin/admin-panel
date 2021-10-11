@@ -1,0 +1,28 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.searchbar_and_buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-bottom: auto;
+}
+
+.checkbox_and_radio {
+    display: flex;
+    margin-top: 3rem;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100wh;
+  padding: 3rem;
+}

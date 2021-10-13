@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+.page__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page__header {
+  display: flex;
+  background: #a8a8ff;
+  padding: 0;
+  margin: 2rem 3rem 2.375rem;
+}
+
+.page__header__text {
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 2rem;
+  font-family: "Ubuntu";
+  color: #8055ff;
+}
+
+.search__area {
+  display: flex;
+  background: #ffffff;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border: 0.125rem solid #a8a8ff;
+}
+
+.search__window {
+  display: flex;
+  background: #8055ff;
+  width: 16rem;
+  height: 2rem;
+}
+
+.search__filters {
+  display: flex;
+  background: #8055ff;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
+
+.search__download {
+  display: flex;
+  align-self: flex-end;
+  background: #8055ff;
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+}
+
+.table__wrapper {
+  display: flex;
+  flex-direction: column;
+  background: #a8a8ff;
+  margin: 2rem 3rem auto;
+  height: 100%;
+  border: 0.125rem solid #8055ff;
+}
+
+.table__header {
+  display: flex;
+  height: 3rem;
+  background: #8055ff;
+}
+
+.table__body {
+  display: flex;
+  height: 100%;
+  background: #a8a8ff;
+}
+
+.table__footer {
+  display: flex;
+  height: 3rem;
+  background: #8055ff;
+  margin-bottom: 0;
+}
